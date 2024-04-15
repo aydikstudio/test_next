@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$bg-main: #D9D9D9;
+$bg-second: #222222;
+
+.added {
+    width: 400px;
+    &-button {
+        background-color: $bg-second;
+        color: $bg-main;
+        width: 100%;
+        margin: 5px 0 0 10px;
+    }
+
+    &-input {
+       height: 44px;
+        background-color: $bg-main;
+    }
+}
+
+.block {
+    background-color: $bg-main;
+    height: 500px;
+    position: relative;
+    margin-top: 20px;
+    &-name {
+        color: $bg-second;
+    }
+
+    &-button {
+        background-color: $bg-second;
+        color: $bg-main;
+        width: 100%;
+        position: absolute;
+        bottom: 10px;
+    }
+
+    &-buttons {
+        background-color: $bg-second;
+       
+        width: 100%;
+        margin: 5px 0 0 10px;
+    }
+
+    &-input {
+        height: 40px;
+        width: 60px;
+        color: #fff;
+        text-align: center;
+         background-color: $bg-second;
+         margin: 5px 0 0 8px;
+     }
+}
